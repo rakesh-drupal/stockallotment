@@ -1,0 +1,15 @@
+amp_run.amp_view_page:
+  path: '/amp-view-page'
+  defaults:
+    _controller: '\Drupal\amp_run\Controller\AmpViewPage::viewPage'
+    _title: 'Custom Amp View'
+  requirements:
+    _permission: 'access content'
+    
+amp_run.amp_view_form:
+  path: '/amp-view-form'
+  defaults:
+    _form: '\Drupal\amp_run\Form\ampViewForm'
+    _title: 'Custom Amp View Form'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,8 @@
+name: Amp Example
+type: module
+description: 'Example for testing menu page'
+package: 'Amp example'
+version: '8.x-2.1'
+core: '8.x'
+project: 'amp'
+datestamp: 1526489584
